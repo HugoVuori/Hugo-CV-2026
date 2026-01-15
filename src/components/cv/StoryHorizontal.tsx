@@ -35,7 +35,7 @@ const storyMoments = [
   },
   {
     title: "Event Management",
-    type: "Age 18",
+    type: "Age 17",
     description: "Founded and ran large college events; hired and led 10+ staff and served 450+ attendees at peak.",
     outcomes: ["Team of 10+ staff", "450+ attendees", "First touch to leadership"],
     icon: PartyPopper,
