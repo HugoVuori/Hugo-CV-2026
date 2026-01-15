@@ -6,7 +6,7 @@ const projectItems = [
     title: "Resale OS",
     type: "AI-powered analysis",
     description:
-      "Instantly analyzes resale listings (Vinted, Depop, eBay) from a link. Calculates a Deal Score (0–100) using brand, condition, price, and risk factors, plus cross-platform price comparisons to surface the best buys.",
+      "Instantly analyzes resale listings (Vinted, Depop, eBay) from a link, picture or just sketch to generate a Deal Score (0–100) and price comparisons — enabling smarter, lower-friction purchase decisions for buyers and faster conversions for sellers.",
     tags: ["AI", "Pricing", "Marketplace", "Automation"],
     icon: Gauge,
   },
@@ -14,7 +14,7 @@ const projectItems = [
     title: "FitMatch",
     type: "Social fitness",
     description:
-      "Connects people with like-minded training partners through streamlined onboarding and a discovery page. Emphasizes community, shared goals, and a modern UI that makes finding motivation feel simple.",
+      "Connects people with like-minded training partners through streamlined onboarding and a discovery page. Makes finding motivation much simpler by focusing on social connection and shared goals.",
     tags: ["Social", "Mobile UX", "Community"],
     icon: Dumbbell,
   },
@@ -22,7 +22,7 @@ const projectItems = [
     title: "CapitalTrail",
     type: "VC matcher",
     description:
-      "Curated VC matcher that automates investor research for founders. Scores fit across 10k+ firms by industry, stage, and geography, analyzes portfolios, and produces a personalized investor list in seconds.",
+      "Built a VC matching tool that eliminates manual investor research by instantly generating founder-ready investor lists based on portfolio fit.",
     tags: ["Automation", "Venture", "Scoring"],
     icon: Globe2,
   },

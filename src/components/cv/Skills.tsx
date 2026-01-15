@@ -16,7 +16,7 @@ const skillCategories = [
     skills: [
       { name: "CRM (Salesforce, HubSpot)" },
       { name: "Data Analysis" },
-      { name: "Forecasting" },
+      { name: "Data enrichment" },
       { name: "Digital Marketing" },
     ],
   },

@@ -10,26 +10,26 @@ import {
 
 const storyMoments = [
   {
-    title: "Small Marketing Agency",
+    title: "Door-to-Door",
     type: "Age 10",
-    description: "Early door-to-door sales work with a small marketing agency in Tampere, Finland.",
-    outcomes: ["Talking to customers one doorstep at a time"],
+    description: "Forced to go door-to-door marketing for my dads business, ended up liking it.",
+    outcomes: ["Out of my comfort zone, used to be a shy person. Started developing work ethic."],
     icon: ShoppingBag,
     tags: ["Sales start", "Tampere"],
   },
   {
     title: "Forestry Work",
-    type: "Age 14",
-    description: "Seasonal forestry work for a small business in Eastern Finland, building resilience and discipline.",
-    outcomes: ["Hard, physical work", "Eastern Finland"],
+    type: "Age 13",
+    description: "Seasonal field maintenance work in Eastern Finland, supporting a Finnish business through haymaking and land upkeep.",
+    outcomes: ["Did not like this, but learned the value of hard physical work."],
     icon: TreePine,
     tags: ["Grit", "Execution"],
   },
   {
     title: "Games",
     type: "Age 15",
-    description: "Built video games using different platforms — a first taste of making things from scratch.",
-    outcomes: ["Experimented across platforms", "Kept curiosity alive"],
+    description: "Built video games using multiple platforms — a first taste to creating things, instead of just consuming.",
+    outcomes: ["Learned multiple tools and platforms", "Discovered my creative side"],
     icon: Gamepad2,
     tags: ["Building", "Curiosity"],
   },
@@ -37,15 +37,15 @@ const storyMoments = [
     title: "Event Management",
     type: "Age 18",
     description: "Founded and ran large college events; hired and led 10+ staff and served 450+ attendees at peak.",
-    outcomes: ["Team of 10+ staff", "450+ attendees"],
+    outcomes: ["Team of 10+ staff", "450+ attendees", "First touch to leadership"],
     icon: PartyPopper,
-    tags: ["Leadership", "Operations"],
+    tags: ["Leadership", "Operations",],
   },
   {
     title: "First Office Job",
     type: "Age 19",
-    description: "Hands-on CRM data work for enterprise clients; first exposure to structured operations.",
-    outcomes: ["Enterprise CRM data work"],
+    description: "Hands-on CRM data work for enterprise clients; first exposure to structured operations. Simple but important work.",
+    outcomes: ["Just consistent effort", "Learning the importance of data and its quality"],
     icon: Database,
     tags: ["Data", "Process"],
   },
@@ -67,7 +67,7 @@ const StoryHorizontal = () => {
             <span className="text-sm font-medium uppercase tracking-wider">My Story</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground">
-            My Story
+            Early work history
           </h2>
           <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
             A quick left-to-right look at the moments that shaped how I work.

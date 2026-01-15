@@ -20,14 +20,14 @@ const experiences = [
     location: "Finland",
     period: "2023 – 2024",
     description: [
-      "Sold Salesforce-based CRM solutions with annual contract values between €20k–€150k",
+      "Sold Salesforce-based CRM solutions in video calls with annual contract values between €20k–€150k",
       "Built pipeline through cold outreach and targeted messaging across public and private energy sector accounts",
       "Acted as a practical link between developers and customers, translating technical details into clear business outcomes",
     ],
   },
   {
     title: "Freelance Padel Coach",
-    company: "Self-employed",
+    company: "Self-employed" ,
     location: "Finland",
     period: "2023 – 2024",
     description: [

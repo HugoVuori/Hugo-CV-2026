@@ -65,7 +65,6 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-xl md:text-2xl text-primary-foreground/80 mb-2"
           >
-            Commercial generalist for early-stage sales & ops
           </motion.p>
 
           <motion.p
@@ -75,7 +74,7 @@ const Hero = () => {
             className="text-lg text-primary-foreground/60 mb-8 flex items-center justify-center gap-2"
           >
             <MapPin className="w-4 h-4" />
-            Finland — comfortable moving between founder rooms and field work
+            Finland — Comfortable moving anywhere
           </motion.p>
 
           <motion.p
@@ -84,7 +83,7 @@ const Hero = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-lg text-primary-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Commercial generalist with hands-on experience in early-stage startups and B2B sales. Used to shifting between strategy and execution — sparring founders with data, booking meetings, or simply getting things done in fast-moving, ambiguous environments.
+            Commercial generalist with hands-on experience in early-stage startups and B2B/B2C sales and CRM/IT world. Best at simply getting things done in fast-moving, ambiguous environments.
           </motion.p>
 
           <motion.div
