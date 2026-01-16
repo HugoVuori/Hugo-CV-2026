@@ -18,18 +18,49 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT;
+
+    if (!endpoint) {
+      toast({
+        title: "Form not configured",
+        description: "Missing Formspree endpoint. Please set VITE_FORMSPREE_ENDPOINT.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    toast({
-      title: "Message sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
+      if (!response.ok) {
+        throw new Error("Form submission failed");
+      }
 
-    setFormData({ name: "", email: "", company: "", message: "" });
-    setIsSubmitting(false);
+      toast({
+        title: "Message sent!",
+        description: "Thank you for reaching out. I'll get back to you soon.",
+      });
+
+      setFormData({ name: "", email: "", company: "", message: "" });
+    } catch (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or email me directly at hugovuori1@gmail.com.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+
   };
 
   const handleChange = (
@@ -85,13 +116,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-4 text-primary-foreground/80">
-                <div className="w-12 h-12 rounded-lg bg-primary-foreground/10 flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-accent" />
-                </div>
-                <div>
-                  <p className="text-sm text-primary-foreground/60">Availability</p>
-                  <p className="font-medium">Open to sales, strategy, and execution work with founders.</p>
-                </div>
+                
               </div>
 
               <div className="flex items-center gap-4 text-primary-foreground/80">
@@ -105,13 +130,7 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-4 text-primary-foreground/80">
-                <div className="w-12 h-12 rounded-lg bg-primary-foreground/10 flex items-center justify-center">
-                  <Linkedin className="w-5 h-5 text-accent" />
-                </div>
-                <div>
-                  <p className="text-sm text-primary-foreground/60">Working style</p>
-                  <p className="font-medium">Happy to switch between sparring and hands-on delivery.</p>
-                </div>
+                
               </div>
             </div>
 
