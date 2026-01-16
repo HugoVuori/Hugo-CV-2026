@@ -15,7 +15,7 @@ const storyMoments = [
     description: "Forced to go door-to-door marketing for my dads business, ended up liking it.",
     outcomes: ["Out of my comfort zone, used to be a shy person. Started developing work ethic."],
     icon: ShoppingBag,
-    tags: ["Sales start", "Tampere"],
+    tags: [],
   },
   {
     title: "Forestry Work",
@@ -23,7 +23,7 @@ const storyMoments = [
     description: "Seasonal field maintenance work in Eastern Finland, supporting a Finnish business through haymaking and land upkeep.",
     outcomes: ["Did not like this, but learned the value of hard physical work."],
     icon: TreePine,
-    tags: ["Grit", "Execution"],
+    tags: [],
   },
   {
     title: "Games",
@@ -31,7 +31,7 @@ const storyMoments = [
     description: "Built video games using multiple platforms — a first taste to creating things, instead of just consuming.",
     outcomes: ["Learned multiple tools and platforms", "Discovered my creative side"],
     icon: Gamepad2,
-    tags: ["Building", "Curiosity"],
+    tags: [],
   },
   {
     title: "Event Management",
@@ -39,7 +39,7 @@ const storyMoments = [
     description: "Founded and ran large college events; hired and led 10+ staff and served 450+ attendees at peak.",
     outcomes: ["Team of 10+ staff", "450+ attendees", "First touch to leadership"],
     icon: PartyPopper,
-    tags: ["Leadership", "Operations",],
+    tags: [],
   },
   {
     title: "First Office Job",
@@ -47,9 +47,11 @@ const storyMoments = [
     description: "Hands-on CRM data work for enterprise clients; first exposure to structured operations. Simple but important work.",
     outcomes: ["Just consistent effort", "Learning the importance of data and its quality"],
     icon: Database,
-    tags: ["Data", "Process"],
+    tags: [],
   },
 ];
+
+const bulletlessTitles = new Set(["Door-to-Door", "Forestry Work"]);
 
 const StoryHorizontal = () => {
   return (
@@ -115,7 +117,9 @@ const StoryHorizontal = () => {
                     <ul className="space-y-1">
                       {moment.outcomes.map((outcome, i) => (
                         <li key={i} className="text-sm text-muted-foreground flex items-center gap-2">
-                          <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                          {!bulletlessTitles.has(moment.title) && (
+                            <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                          )}
                           {outcome}
                         </li>
                       ))}
