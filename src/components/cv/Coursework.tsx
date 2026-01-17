@@ -3,8 +3,8 @@ import { BookOpen, Award } from "lucide-react";
 
 const courses = [
   {
-    code: "KV20B705",
-    name: "AI in International Business",
+    code: "Junction 2025",
+    name: "Account Manager for Sensofusion (defense sector IT-company)",
   },
   {
     code: "KV202051",
@@ -19,8 +19,8 @@ const courses = [
     name: "Strategic Management",
   },
   {
-    code: "KV202030",
-    name: "Business Intelligence and the Global Business",
+    code: "KV20B705",
+    name: "AI in International Business",
   },
 ];
 
@@ -37,13 +37,13 @@ const Coursework = () => {
         >
           <div className="inline-flex items-center gap-2 text-accent mb-4">
             <BookOpen className="w-5 h-5" />
-            <span className="text-sm font-medium uppercase tracking-wider">Academics</span>
+            <span className="text-sm font-medium uppercase tracking-wider">Academics and Events</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-serif font-semibold text-foreground">
-            Relevant Coursework
+            Relevant Volunteering and Coursework
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Modules shaping how I approach international business, exports, and data-informed strategy.
+            Models and events shaping how I approach business. Volunteer work to expand my view, coursework to expand my knowledge.
           </p>
         </motion.div>
 
