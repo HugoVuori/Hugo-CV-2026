@@ -8,8 +8,8 @@ const experiences = [
     location: "Finland",
     period: "2025 – Present",
     description: [
-      "Opened the luxury hospitality segment and booked meetings with Finland's top operator and premium villa partners within two months",
-      "Worked as a founder thought partner, bringing market data, segmentation logic, and competitor insights into everyday decisions",
+      "Started sales and booked meetings with Finland's #1 market leader and premium villa partners within two months",
+      "Worked as a founders thought partner, bringing market data, segmentation logic, and competitor insights into everyday decisions",
       "Handled lead generation, website work, and direct sales of high-end physical products to clients",
       "Operated at the intersection of strategy and execution with a humble, learn-first mindset",
     ],
