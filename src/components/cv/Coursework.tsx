@@ -8,7 +8,7 @@ const courses = [
   },
   {
     code: "Junction 2025",
-    name: "Account Manager for Sensofusion (defense sector IT-company)",
+    name: "Account Manager for Sensofusion (defense sector IT company), endorsed by CRO Mikko Hyppönen",
   },
   {
     code: "KV202051",

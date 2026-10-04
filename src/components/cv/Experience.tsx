@@ -8,11 +8,11 @@ const experiences = [
     location: "Helsinki, Finland",
     period: "May 2026 – Present",
     description: [
-      "Full-cycle B2B SaaS sales of tender monitoring and early public-sector sales signals to companies that sell to the public sector, from prospecting to closed deal",
+      "7 new SaaS deals closed in five months, top performer of my hiring cohort, including a company record month of 4 deals in June 2026, my second month after joining",
       "Fastest deal in company history: from \"Hi, I'm Hugo\" to a signed one-year software contract in 34 minutes",
-      "Closing 2–4 new annual contracts per month (€6k ACV) at a startup that has grown from zero to ~70 customers since sales began in September 2025",
-      "Built the team's own AI prospecting engine that turns business registries into call lists with decision-makers and direct numbers, now used by colleagues and for the Swedish market expansion",
-      "Prepare a personalised demo environment for every prospect from meeting notes and public procurement data, and contributed to US go-to-market research",
+      "Built an in-house prospecting and CRM tool with Claude, from idea to daily use (registry and procurement data, ICP scoring), that saves each seller in the 7-person sales team 4–8 hours a week",
+      "Supplied leads for the entire sales team with the most precise ICP targeting in company history, leading to a company record of 74 booked meetings in one week",
+      "Build personalised prospect demos for colleagues and my manager that have helped close their deals, and train the whole sales team on my demo workflow and tooling",
     ],
   },
   {

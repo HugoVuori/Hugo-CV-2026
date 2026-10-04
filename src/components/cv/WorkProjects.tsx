@@ -6,7 +6,7 @@ const projectItems = [
     title: "Prospecting Agent",
     type: "AI sales tooling",
     description:
-      "Turns a company list or business registry (Finland, Sweden) into ready-to-call lists: finds each company's website, extracts 2–5 decision-makers with direct phone numbers using an LLM, checks their public procurement history and ranks who to call first. Built for my own sales work, now used across the Alicent sales team.",
+      "Turns a company list or business registry (Finland, Sweden) into ready-to-call lists: finds each company's website, extracts 2–5 decision-makers with direct phone numbers using an LLM, checks their public procurement history and ranks who to call first. Built with Claude for my own sales work, now used daily by the whole Alicent sales team and saving each seller 4–8 hours a week.",
     tags: ["Python", "LLM", "Web scraping", "Sales Ops"],
     icon: Radar,
   },
@@ -14,7 +14,7 @@ const projectItems = [
     title: "Demo Builder",
     type: "Sales enablement",
     description:
-      "Turns a discovery-call transcript or a prospect's website into a tailored demo configuration (the tenders, keywords and early signals that matter to that specific company), so every sales demo shows the prospect their own market instead of a generic one.",
+      "Turns a discovery-call transcript or a prospect's website into a tailored demo configuration (the tenders, keywords and early signals that matter to that specific company), so every sales demo shows the prospect their own market instead of a generic one. Demos built with it have helped colleagues and my manager close deals, and I now train the whole sales team on the workflow.",
     tags: ["AI", "Public procurement", "Personalisation"],
     icon: Presentation,
   },
