@@ -15,7 +15,7 @@ const currentInterests = [
   },
   {
     title: "Cooking",
-    description: "Cooking for the people around me and always trying something new.",
+    description: "A few go-to recipes I have perfected over time, and the people closest to me love them.",
     icon: ChefHat,
   },
 ];
