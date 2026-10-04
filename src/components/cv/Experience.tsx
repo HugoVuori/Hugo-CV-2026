@@ -8,7 +8,7 @@ const experiences = [
     location: "Helsinki, Finland",
     period: "May 2026 – Present",
     description: [
-      "7 new SaaS deals closed in five months, top performer of my hiring cohort, including a company record month of 4 deals in June 2026, my second month after joining",
+      "Top closer in the company within a month of joining, including a company record month of 4 deals in June 2026, my second month at Alicent",
       "Fastest deal in company history: from \"Hi, I'm Hugo\" to a signed one-year software contract in 34 minutes",
       "Built an in-house prospecting and CRM tool with Claude, from idea to daily use (registry and procurement data, ICP scoring), that saves each seller in the 7-person sales team 4–8 hours a week",
       "Supplied leads for the entire sales team with the most precise ICP targeting in company history, leading to a company record of 74 booked meetings in one week",

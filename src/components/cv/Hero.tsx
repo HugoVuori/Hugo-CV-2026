@@ -83,7 +83,7 @@ const Hero = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-lg text-primary-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Account Executive at Alicent, selling public-sector sales intelligence SaaS. I close, I build and I teach: the fastest deal in company history, and the prospecting system the whole sales team runs on. Calm under pressure and analytical by nature, I do my best work where selling, data and AI meet.
+            Account Executive at Alicent, selling public-sector sales intelligence SaaS. Top closer in the company within a month, the fastest deal in company history, and the prospecting system the whole sales team now runs on. Calm under pressure and analytical by nature, I do my best work where selling, data and AI meet.
           </motion.p>
 
           <motion.div
