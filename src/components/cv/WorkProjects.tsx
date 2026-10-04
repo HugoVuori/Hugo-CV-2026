@@ -1,30 +1,30 @@
 import { motion } from "framer-motion";
-import { FolderOpen, Gauge, Dumbbell, Globe2 } from "lucide-react";
+import { FolderOpen, Radar, Presentation, Blocks } from "lucide-react";
 
 const projectItems = [
   {
-    title: "Resale OS",
-    type: "AI-powered analysis",
+    title: "Prospecting Agent",
+    type: "AI sales tooling",
     description:
-      "Instantly analyzes resale listings (Vinted, Depop, eBay) from a link, picture or just sketch to generate a Deal Score (0–100) and price comparisons — enabling smarter, lower-friction purchase decisions for buyers and faster conversions for sellers.",
-    tags: ["AI", "Pricing", "Marketplace", "Automation"],
-    icon: Gauge,
+      "Turns a company list or business registry (Finland, Sweden) into ready-to-call lists: finds each company's website, extracts 2–5 decision-makers with direct phone numbers using an LLM, checks their public procurement history and ranks who to call first. Built for my own sales work, now used across the Alicent sales team.",
+    tags: ["Python", "LLM", "Web scraping", "Sales Ops"],
+    icon: Radar,
   },
   {
-    title: "FitMatch",
-    type: "Social fitness",
+    title: "Demo Builder",
+    type: "Sales enablement",
     description:
-      "Connects people with like-minded training partners through streamlined onboarding and a discovery page. Makes finding motivation much simpler by focusing on social connection and shared goals.",
-    tags: ["Social", "Mobile UX", "Community"],
-    icon: Dumbbell,
+      "Turns a discovery-call transcript or a prospect's website into a tailored demo configuration (the tenders, keywords and early signals that matter to that specific company), so every sales demo shows the prospect their own market instead of a generic one.",
+    tags: ["AI", "Public procurement", "Personalisation"],
+    icon: Presentation,
   },
   {
-    title: "CapitalTrail",
-    type: "VC matcher",
+    title: "LEGO Portfolio Tracker",
+    type: "Alternative investments",
     description:
-      "Built a VC matching tool that eliminates manual investor research by instantly generating founder-ready investor lists based on portfolio fit.",
-    tags: ["Automation", "Venture", "Scoring"],
-    icon: Globe2,
+      "Tracks a LEGO collection as an investment portfolio: live BrickLink market prices, monthly value snapshots, price history and minifigure-level breakdowns, all in one dashboard.",
+    tags: ["Node.js", "API integration", "Investing"],
+    icon: Blocks,
   },
 ];
 
@@ -47,7 +47,7 @@ const WorkProjects = () => {
             Projects
           </h2>
           <p className="text-muted-foreground">
-            In my spare time, I actively develop projects to push my boundaries in AI, technical understanding, and rapid innovation — experimenting with new technologies to solve real-world problems and stay ahead of the digital curve.
+            I build my own tools, mostly with AI, to solve problems I run into in sales and in everyday life. Some started as side projects and ended up in daily use across a sales team.
           </p>
         </motion.div>
 

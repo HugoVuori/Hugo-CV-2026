@@ -4,11 +4,13 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const education = [
   {
     degree: "Turku School of Economics (TSE)",
-    institution: "International Business",
+    institution: "Bachelor's and Master's in Business",
+    period: "2024 – Present",
     location: "Turku, Finland",
     details: [
       "Major: International Business",
       "Minor: Management",
+      "Bachelor's thesis completed in two years (2026): \"The Role of Venture Capital Funding in Shaping Startup Growth and Internationalisation\"",
     ],
   },
 ];

@@ -83,7 +83,7 @@ const Hero = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-lg text-primary-foreground/70 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Commercial generalist with hands-on experience in early-stage startups and B2B/B2C sales and CRM/IT world. Best at simply getting things done in fast-moving, ambiguous environments.
+            Account Executive at Alicent, selling public-sector sales intelligence SaaS. Commercial generalist with hands-on experience in early-stage startups, B2B/B2C sales and CRM/IT, and I build my own AI-powered sales tools. Best at simply getting things done in fast-moving, ambiguous environments.
           </motion.p>
 
           <motion.div

@@ -3,6 +3,10 @@ import { BookOpen, Award } from "lucide-react";
 
 const courses = [
   {
+    code: "New York 2026",
+    name: "Meetings with founders, investment bankers, consultants and Big Law lawyers on building a career and business in the U.S.",
+  },
+  {
     code: "Junction 2025",
     name: "Account Manager for Sensofusion (defense sector IT-company)",
   },

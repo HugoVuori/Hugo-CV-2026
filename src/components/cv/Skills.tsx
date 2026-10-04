@@ -5,6 +5,8 @@ const skillCategories = [
   {
     title: "Sales & Growth",
     skills: [
+      { name: "B2B SaaS Sales" },
+      { name: "Public-Sector Sales" },
       { name: "International Sales" },
       { name: "Business Development" },
       { name: "Lead Generation" },
@@ -14,7 +16,8 @@ const skillCategories = [
   {
     title: "Technical",
     skills: [
-      { name: "CRM (Salesforce, HubSpot)" },
+      { name: "CRM (Salesforce, HubSpot, Pipedrive)" },
+      { name: "AI & Python tooling" },
       { name: "Data Analysis" },
       { name: "Data enrichment" },
       { name: "Digital Marketing" },
@@ -26,6 +29,7 @@ const skillCategories = [
       { name: "Team Coordination" },
       { name: "Strategic Planning" },
       { name: "Founder Sparring" },
+      { name: "Coaching" },
       { name: "Public Speaking" },
     ],
   },
