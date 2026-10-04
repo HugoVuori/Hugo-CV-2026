@@ -6,6 +6,7 @@ import WorkProjects from "@/components/cv/WorkProjects";
 import Education from "@/components/cv/Education";
 import Skills from "@/components/cv/Skills";
 import Coursework from "@/components/cv/Coursework";
+import Interests from "@/components/cv/Interests";
 import Contact from "@/components/cv/Contact";
 import Footer from "@/components/cv/Footer";
 
@@ -20,6 +21,7 @@ const Index = () => {
       <Education />
       <Skills />
       <Coursework />
+      <Interests />
       <Contact />
       <Footer />
     </main>
