@@ -13,6 +13,7 @@ const experiences = [
       "Built an in-house prospecting and CRM tool with Claude, from idea to daily use (registry and procurement data, ICP scoring), that saves each seller in the 7-person sales team 4–8 hours a week",
       "Supplied leads for the entire sales team with the most precise ICP targeting in company history, leading to a company record of 74 booked meetings in one week",
       "Build personalised prospect demos for colleagues and my manager that have helped close their deals, and train the whole sales team on my demo workflow and tooling",
+      "Trusted early with ownership beyond my own pipeline: I lead the US go-to-market research and own lead generation and business intelligence for our Swedish expansion, getting the market ready for our first seller in Sweden",
     ],
   },
   {
